@@ -1,6 +1,6 @@
 public class Gondozo implements java.io.Serializable {
     private String nev;
-    private int fizu; //óradíj!!
+    private int fizu;
 
     public Gondozo(String nev, int fizu) {
         this.nev = nev;

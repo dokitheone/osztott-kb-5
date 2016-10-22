@@ -20,7 +20,7 @@ public class Server {
         PrintWriter pw = new PrintWriter(client.getOutputStream(), true);
         pw.println(zooIdo);
         pw.println(zooKolt);
-        //pw.println(zooIdo + " " + zooKolt);
+        
         System.out.println("A valasz elkuldve.");        
         
         pw.close();

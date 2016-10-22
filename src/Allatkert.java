@@ -14,11 +14,11 @@ public class Allatkert implements java.io.Serializable {
         for(Ketrec k : ketrecek) {
             sum += k.getMenny() * k.getIdo();
         }
-        return sum;
+        return sum / gondozok.size();
     }
     
     public double koltseg() {
-        double fizuk = 0.0;
+        double fizuk = 0.0;        
         for(Gondozo g : gondozok) {
             fizuk += g.getFizu();
         }
